@@ -1,0 +1,18 @@
+# Arquivos de usuário e cache
+*.suo
+*.user
+*.userosscache
+*.userprefs
+.vs/
+
+# Compilação e binários
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Outros
+*.pidb
+*.pdb
+.vscode/
+.idea/
