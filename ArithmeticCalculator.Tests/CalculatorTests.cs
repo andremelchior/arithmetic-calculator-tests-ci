@@ -14,12 +14,12 @@ public class CalculatorTests
     [Fact]
     public void Sum_ShouldReturnCorrectResult()
     {
-	double n1 = 3;
-	double n2 = 2;
+        double n1 = 3;
+        double n2 = 2;
 
-	var result = this._calculator.Sum(n1, n2);
+        var result = this._calculator.Sum(n1, n2);
 
-	Assert.Equal(5, result);
+        Assert.Equal(5, result);
     }
 
     [Fact]
@@ -41,6 +41,17 @@ public class CalculatorTests
 
         var result = this._calculator.Multiplication(n1, n2);
 
-        Assert.Equal(3, result);
+        Assert.Equal(4, result);
+    }
+
+    [Fact]
+    public void Division_ShouldReturnCorrectResult()
+    {
+        double n1 = 4;
+        double n2 = 2;
+
+        var result = this._calculator.Division(n1, n2);
+
+        Assert.Equal(2, result);
     }
 }
