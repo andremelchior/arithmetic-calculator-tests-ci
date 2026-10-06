@@ -1,0 +1,14 @@
+.git
+.github
+.gitignore
+
+.vs
+.vscode
+.idea
+
+**/bin
+**/obj
+
+Dockerfile
+docker-compose.yml
+README.md
